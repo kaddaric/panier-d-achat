@@ -1,0 +1,38 @@
+.List{
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  width:50%;
+  padding: 5px 10px;
+  background-color: #c5d6d3;
+}
+
+.recapItems{
+  width:50%;
+  height: 100vh;
+  background-color: #e5dad3;
+}
+
+.Item, .ItemAdded { 
+  display:flex;
+  flex-wrap: wrap;
+  margin:1% 0 5% 0;
+  justify-content: center;
+}
+
+.imgItem {
+  margin:0 10px 0 0;
+}
+
+.removeArticle { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total{
+  font-size: 30px;
+  text-align: center;
+}
